@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(231, 227, 245);
+    background-image: url(rain2.png.gif);
+    background-size: cover;
+    
+}
+
+#bars{
+    display: flex;
+    height: 700px;
+    align-items: flex-end;
+}
+.bar{
+    
+    flex-grow: 1;
+    /*border: 1px solid rgb(42, 10, 185);*/
+    border-radius: 10px;
+    background-color: rgba(12, 95, 30, 0.562);
+    margin: 1px;
+    height: 100%;
+    background-image: url(pngegg.png);
+    background-size:cover;
+    background-position: 50%, 0%;
+    
+
+}
